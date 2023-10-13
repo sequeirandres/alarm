@@ -4,6 +4,32 @@
 
 ![Maquina De Estado](/imag/maquinaEstado.png)
 
+### Estados
+
+
+|  Estados           | Descripciones    | 
+|:------------------:|:-----------------| 
+| power off          | Named 1          | 
+| power on           | Named 2          | 
+| reset & init       | Named 3          | 
+| alarm on           | Named 3          | 
+| alarm off          | Named 3          | 
+| alarm triggered    | Named 3          | 
+| verification cycle | Named 3          | 
+
+### Transiciones
+
+|  Estados                    | Descripciones    | 
+|:---------------------------:|:-----------------| 
+| power off ->  power on      | Named 1          | 
+| power on -> Alarm on        | Named 2          | 
+| Alarm on -> alarm triggered | Named 3          | 
+| alarm triggered- > Alarm on | Named 3          | 
+| alarm off                   | Named 3  | 
+| alarm triggered             | Named 3          | 
+| verification cycle          | Named 3          | 
+
+
 ## Maquina De estado en codigo
 
 ![Maquina De Estado](/imag/maquinaEstadoCode.png "Maquina De Estado")
@@ -39,6 +65,18 @@
 ## Armado
 
 ## Video
+
+
+## Requerimientos :
+
+|  ID  | Descripciones    | 
+|:-----|:----------------:| 
+| RF01 | Named 1          | 
+| RF02 | Named 2          | 
+| RF02 | Named 3          | 
+
+
+
 
 
 
