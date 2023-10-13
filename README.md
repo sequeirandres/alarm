@@ -71,7 +71,10 @@
 | Led 3              | Indicador Luminoso junto a la sirena | 
 
 
-## Armado
+## Implementación
+
+![Implementacion](/imag/Implementacion.png)
+
 
 ## Video
 
