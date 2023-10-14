@@ -22,7 +22,7 @@
 |  Estados                        | Descripciones    | 
 |:-------------------------------:|:-----------------| 
 | power off ->  power on          | LLave ON         | 
-| power on -> Alarm on            | Llave OFF                   | 
+| power on -> Alarm on            | Sistema                   | 
 | Alarm on -> alarm triggered     | Supera el nivel o estado    | 
 | alarm triggered- > Alarm on     | Pulsar 1 segundo          | 
 | Alarm on -> Verification cycle  | Pulsar 5 segundos | 
