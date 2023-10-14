@@ -1,0 +1,20 @@
+digraph "/home/asequeira/Documentos/CURSO-SISTEMAS-EMBEBIDOS-IUA/Alarma V2.0.0/modules/alarm/alarm.h"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="/home/asequeira/Documentos\l/CURSO-SISTEMAS-EMBEBIDOS\l-IUA/Alarma V2.0.0/modules\l/alarm/alarm.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Archivo de código fuente de la estructura alarm y sus funciones."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="../../modules/speaker\l/speaker.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$speaker_8h.html",tooltip="Archivo de código fuente para el modulo speaker."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="../code/modules.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$modules_8h_source.html",tooltip=" "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="../../modules/light\l/light.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$light_8h.html",tooltip="Archivo de código fuente para el modulo light."];
+  Node4 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="../../modules/sensor\l/sensor.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sensor_8h.html",tooltip="Archivo de código fuente para el modulo sensor analogico y digital."];
+  Node5 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="../../modules/watchDog\l/watchDog.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$watch_dog_8h.html",tooltip="Archivo de código fuente para el watchDog."];
+  Node6 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

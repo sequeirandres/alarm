@@ -1,0 +1,19 @@
+digraph "/home/asequeira/Documentos/CURSO-SISTEMAS-EMBEBIDOS-IUA/Alarma V2.0.0/modules" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_e05d7e2b1ecd646af5bb94391405f3b5 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_e05d7e2b1ecd646af5bb94391405f3b5.html"];
+    dir_e05d7e2b1ecd646af5bb94391405f3b5 [shape=plaintext label="modules"];
+  dir_eace034620cdcd2eafde49178c65f779 [shape=box label="alarm" fillcolor="white" style="filled" URL="dir_eace034620cdcd2eafde49178c65f779.html"];
+  dir_fcd0548d8fe33c846524722bc3456acc [shape=box label="code" fillcolor="white" style="filled" URL="dir_fcd0548d8fe33c846524722bc3456acc.html"];
+  dir_f3dd7af34fceda501e3e8920a4da3fcf [shape=box label="light" fillcolor="white" style="filled" URL="dir_f3dd7af34fceda501e3e8920a4da3fcf.html"];
+  dir_45f78ef1981d846fd28541b9ad3db73e [shape=box label="sensor" fillcolor="white" style="filled" URL="dir_45f78ef1981d846fd28541b9ad3db73e.html"];
+  dir_a9896cc205118c1da46a78131c8b2f2f [shape=box label="speaker" fillcolor="white" style="filled" URL="dir_a9896cc205118c1da46a78131c8b2f2f.html"];
+  dir_1c0d5057a49e3faaf06e4c666fa69251 [shape=box label="watchDog" fillcolor="white" style="filled" URL="dir_1c0d5057a49e3faaf06e4c666fa69251.html"];
+  }
+  dir_eace034620cdcd2eafde49178c65f779->dir_1c0d5057a49e3faaf06e4c666fa69251 [headlabel="1", labeldistance=1.5 headhref="dir_000001_000006.html"];
+  dir_eace034620cdcd2eafde49178c65f779->dir_45f78ef1981d846fd28541b9ad3db73e [headlabel="1", labeldistance=1.5 headhref="dir_000001_000004.html"];
+  dir_eace034620cdcd2eafde49178c65f779->dir_a9896cc205118c1da46a78131c8b2f2f [headlabel="1", labeldistance=1.5 headhref="dir_000001_000005.html"];
+  dir_eace034620cdcd2eafde49178c65f779->dir_f3dd7af34fceda501e3e8920a4da3fcf [headlabel="1", labeldistance=1.5 headhref="dir_000001_000003.html"];
+}

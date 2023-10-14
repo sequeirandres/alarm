@@ -1,0 +1,9 @@
+digraph "Funciones para la estructura speaker"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=box];
+  rankdir=LR;
+  Node2 [label="Alarma Hogareña.",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___p_r_o_y_e_c_t_o.html",tooltip="Alarma Hogareña con dos sensores."];
+  Node1 [label="Funciones para la estructura\l speaker",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="En este módulo se encuentran las funciones para la estructura speaker."];
+  Node2->Node1 [shape=plaintext, dir="back", style="solid"];
+}

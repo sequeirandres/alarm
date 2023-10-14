@@ -1,0 +1,19 @@
+digraph "Alarma Hogareña."
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=box];
+  rankdir=LR;
+  Node2 [label="Módulo de la aplicación\l principal.",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___p_r_i_n_c_i_p_a_l.html",tooltip="Este módulo corresponde a la aplicación principal."];
+  Node5 [label="Funciones para la estructura\l sensor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___s_e_n_s_o_r.html",tooltip="En este módulo se encuentran las funciones para la estructura sensor analogico y digital."];
+  Node3 [label="Módulo alarma",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___a_l_a_r_m.html",tooltip="Este módulo corresponde a la estructura alarm."];
+  Node7 [label="Funciones para la estructura\l Keep Alive",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___w_a_t_c_h_d_o_g.html",tooltip="En este módulo se encuentran las funciones para la estructura light."];
+  Node1 [label="Alarma Hogareña.",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Alarma Hogareña con dos sensores."];
+  Node6 [label="Funciones para la estructura\l speaker",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___s_p_e_a_k_e_r.html",tooltip="En este módulo se encuentran las funciones para la estructura speaker."];
+  Node4 [label="Funciones para la estructura\l light",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___l_i_g_h_t.html",tooltip="En este módulo se encuentran las funciones para la estructura light."];
+  Node1->Node2 [shape=plaintext, dir="back", style="solid"];
+  Node1->Node3 [shape=plaintext, dir="back", style="solid"];
+  Node1->Node4 [shape=plaintext, dir="back", style="solid"];
+  Node1->Node5 [shape=plaintext, dir="back", style="solid"];
+  Node1->Node6 [shape=plaintext, dir="back", style="solid"];
+  Node1->Node7 [shape=plaintext, dir="back", style="solid"];
+}
