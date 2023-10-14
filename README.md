@@ -99,6 +99,10 @@
 | RF13 | Ciclos Armado/Disparo |    OK   |
 | RF14 | Auto Verificar sensor |    OK   |
 
+# Documentación Doxygen
+
+![Documentacion](/imag/Documentacion.png)
+
 
 
 
