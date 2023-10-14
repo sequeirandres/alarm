@@ -78,15 +78,28 @@
 
 ## Video
 
-[Video test](https://drive.google.com/file/d/1UD9CIfe8KOxT1QfAv9p_cZdwUCxesQyv/view)
+[VIDEO TEST](https://drive.google.com/file/d/1UD9CIfe8KOxT1QfAv9p_cZdwUCxesQyv/view)
 
 ## Requerimientos :
+ 
+|  ID  | Descripciones         | |
+|:-----|:---------------------:|:----: |
+| RF01 | Sirena                |   OK    |
+| RF02 | Indicador luminoso    |   OK    |
+| RF03 | Sensor Analogico      |   OK
+| RF04 | Sensor Digital        |  OK |
+| RF05 | Botonera / pulsador   |    OK   |
+| RF06 | Autoarmado            |    OK   |
+| RF07 | Calibrar Umbral       |    OK   |
+| RF08 | Sonar e iluminar      |    OK   |
+| RF09 | Disparo Por Nivel     |    OK   |
+| RF10 | Desarmar Alarma       |    OK   |
+| RF11 | Pulso Keep Alive      |    OK   |
+| RF12 | Calibrar Umbral       |    OK   |
+| RF13 | Ciclos Armado/Disparo |    OK   |
+| RF14 | Auto Verificar sensor |    OK   |
 
-|  ID  | Descripciones    | 
-|:-----|:----------------:| 
-| RF01 | Named 1          | 
-| RF02 | Named 2          | 
-| RF02 | Named 3          | 
+
 
 
 
