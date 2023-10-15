@@ -76,15 +76,14 @@
 ![Implementacion](/imag/Implementacion.png)
 
 
-## Video
+## VIDEO TEST 
+- [VIDEO TEST 01](https://drive.google.com/file/d/1UD9CIfe8KOxT1QfAv9p_cZdwUCxesQyv/view)
 
-[VIDEO TEST 01](https://drive.google.com/file/d/1UD9CIfe8KOxT1QfAv9p_cZdwUCxesQyv/view)
-
-[VIDEO TEST 02](https://drive.google.com/file/d/1UdQ2msKYqaptT1VpGBIey1Q4dO5cnA9U/view?usp=sharing)
+- [VIDEO TEST 02](https://drive.google.com/file/d/1UdQ2msKYqaptT1VpGBIey1Q4dO5cnA9U/view?usp=sharing)
 
 Test de 10 ciclos de disparo y armado
 
-[VIDEO TEST 03](https://drive.google.com/file/d/1UpQQXYY8DziPPq1TAiwWxKWlwWpLnP_g/view?usp=sharing)
+- [VIDEO TEST 03](https://drive.google.com/file/d/1UpQQXYY8DziPPq1TAiwWxKWlwWpLnP_g/view?usp=sharing)
 
 ## Requerimientos :
  
