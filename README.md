@@ -82,6 +82,10 @@
 
 [VIDEO TEST 02](https://drive.google.com/file/d/1UdQ2msKYqaptT1VpGBIey1Q4dO5cnA9U/view?usp=sharing)
 
+Test de 10 ciclos de disparo y armado
+
+[VIDEO TEST 03](https://drive.google.com/file/d/1UpQQXYY8DziPPq1TAiwWxKWlwWpLnP_g/view?usp=sharing)
+
 ## Requerimientos :
  
 |  ID  | Descripciones         | |
@@ -105,7 +109,7 @@
 
 ![Documentacion](/imag/Documentacion.png)
 
-# Gesion pulsadores
+# Gestión De Pulsadores
 
 ![GestionDePulsador](/imag/PulsadorContador.png)
 
