@@ -78,7 +78,9 @@
 
 ## Video
 
-[VIDEO TEST](https://drive.google.com/file/d/1UD9CIfe8KOxT1QfAv9p_cZdwUCxesQyv/view)
+[VIDEO TEST 01](https://drive.google.com/file/d/1UD9CIfe8KOxT1QfAv9p_cZdwUCxesQyv/view)
+
+[VIDEO TEST 02](https://drive.google.com/file/d/1UdQ2msKYqaptT1VpGBIey1Q4dO5cnA9U/view?usp=sharing)
 
 ## Requerimientos :
  
@@ -102,6 +104,12 @@
 # Documentación Doxygen
 
 ![Documentacion](/imag/Documentacion.png)
+
+# Gesion pulsadores
+
+![GestionDePulsador](/imag/PulsadorContador.png)
+
+
 
 
 
