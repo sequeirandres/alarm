@@ -7,27 +7,27 @@
 ### Estados
 
 
-|  Estados           | Descripciones    | 
-|:------------------:|:-----------------| 
-| power off          | Named 1          | 
-| power on           | Named 2          | 
-| reset & init       | Named 3          | 
-| alarm on           | Named 3          | 
-| alarm off          | Named 3          | 
-| alarm triggered    | Named 3          | 
-| verification cycle | Named 3          | 
+|  Estados           | Descripciones      | 
+|:------------------:|:-------------------| 
+| power off          | Apagada            | 
+| power on           | Encendido          | 
+| reset & init       | Reset              | 
+| alarm on           | Alarma Activada    | 
+| alarm off          | Alarma Desactivada | 
+| alarm triggered    | Alarma Disparada   | 
+| verification cycle | Verificar Sensor   | 
 
 ### Transiciones
 
-|  Estados                    | Descripciones    | 
-|:---------------------------:|:-----------------| 
-| power off ->  power on      | Named 1          | 
-| power on -> Alarm on        | Named 2          | 
-| Alarm on -> alarm triggered | Named 3          | 
-| alarm triggered- > Alarm on | Named 3          | 
-| alarm off                   | Named 3  | 
-| alarm triggered             | Named 3          | 
-| verification cycle          | Named 3          | 
+|  Estados                        | Descripciones    | 
+|:-------------------------------:|:-----------------| 
+| power off ->  power on          | LLave ON         | 
+| power on -> Alarm on            | Sistema                   | 
+| Alarm on -> alarm triggered     | Supera el nivel o estado    | 
+| alarm triggered- > Alarm on     | Pulsar 1 segundo          | 
+| Alarm on -> Verification cycle  | Pulsar 5 segundos | 
+| Verification cycle ->  Alarm on | Al finalizar       | 
+|  Alarm on -> Reset              | Sistema externo         | 
 
 
 ## Maquina De estado en codigo
@@ -98,6 +98,10 @@
 | RF12 | Calibrar Umbral       |    OK   |
 | RF13 | Ciclos Armado/Disparo |    OK   |
 | RF14 | Auto Verificar sensor |    OK   |
+
+# Documentación Doxygen
+
+![Documentacion](/imag/Documentacion.png)
 
 
 
