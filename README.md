@@ -1,5 +1,13 @@
 # Proyecto Alarma
 
+
+## WBS
+![WBS](/imag/wbs.png)
+
+## Cronograma
+
+![cronograma](/imag/cronograma.png)
+
 ## Maquina De estado
 
 ![Maquina De Estado](/imag/maquinaEstado.png)
