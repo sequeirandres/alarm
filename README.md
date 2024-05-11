@@ -123,11 +123,6 @@ Test de 10 ciclos de disparo y armado
 
 
 
-https://github.com/sequeirandres/alarm/assets/72326236/30a53fe7-c377-41cc-a076-ed87b8da5880
-
-
-
-
 
 
 
